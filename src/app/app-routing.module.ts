@@ -16,14 +16,16 @@ component: AppComponent
 },
 
 {
+  path: 'today',
+  component: TodayComponent
+},
+
+
+{
   path: 'map',
   component: MapComponent
   },
 
-  {
-  path: 'today',
-  component: TodayComponent
-}
 
 
 ];

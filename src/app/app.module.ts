@@ -12,6 +12,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TodayComponent } from './today/today.component';
 import { MapComponent } from './map/map.component';
+import { PopupService } from './popup.service';
+import { MarkerService } from './marker.service';
 
 
 
@@ -40,7 +42,7 @@ import { MapComponent } from './map/map.component';
 
 
   ],
-  providers: [],
+  providers: [MarkerService,PopupService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
