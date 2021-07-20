@@ -1,0 +1,123 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"state": "Toscana",
+        "name": "Siena",
+        "params":"",
+        "population": 199518},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.162109375,
+          43.35713822211053
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"state": "Toscana",
+        "name": "Firenze",
+        "population": 199518},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.260986328125,
+          43.76712702120528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"state": "Toscana",
+        "name": "Pistoia",
+        "population": 199518},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.909423828125,
+          43.94537239244209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"state": "Toscana",
+        "name": "Pisa",
+        "population": 199518},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3985595703125,
+          43.71156424665851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"state": "Toscana",
+        "name": "Lucca",
+        "population": 199518},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5084228515625,
+          43.854335770789575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"state": "Toscana",
+        "name": "Livorno",
+        "population": 199518},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3216552734375,
+          43.54854811091286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"state": "Toscana",
+        "name": "Piombino",
+        "population": 199518},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.530395507812498,
+          42.94033923363181
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"state": "Toscana",
+        "name": "Arezzo",
+        "population": 199518},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.88720703125,
+          43.44893105587766
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"state": "Toscana",
+        "name": "Grosseto",
+        "population": 199518},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1181640625,
+          42.755079545072135
+        ]
+      }
+    }
+  ]
+}

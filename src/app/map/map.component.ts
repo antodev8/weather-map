@@ -3,6 +3,7 @@ import * as L from 'leaflet';
 import {Router} from '@angular/router';
 import { MarkerService } from '../marker.service';
 
+
 const iconRetinaUrl = 'assets/marker-icon-2x.png';
 const iconUrl = 'assets/marker-icon.png';
 const shadowUrl = 'assets/marker-shadow.png';
@@ -31,8 +32,8 @@ export class MapComponent implements AfterViewInit {
 
   private initMap(): void {
     this.map = L.map('map', {
-      center: [ 39.8282, -98.5795 ],
-      zoom: 3
+      center: [ 43.612741996886356, 11.006591018846967],
+      zoom: 7
     });
     const tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 18,
@@ -41,6 +42,7 @@ export class MapComponent implements AfterViewInit {
     });
 
     tiles.addTo(this.map);
+
 
   }
 

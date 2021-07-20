@@ -8,7 +8,7 @@ import { PopupService } from './popup.service';
   providedIn: 'root'
 })
 export class MarkerService {
-  capitals: string = '/assets/data/usa-capitals.geojson';
+  capitals: string = '/assets/data/tuscany.geojson';
 
 
   constructor(private http: HttpClient,private popupService: PopupService) { }
@@ -22,9 +22,12 @@ export class MarkerService {
         const lat = c.geometry.coordinates[1];
         const marker = new L.Marker([lat, lon]);
 
+
         marker.bindPopup(this.popupService.makeCapitalPopup(c.properties, c.params));
 
         marker.addTo(map);
+
+
       }
 
     });

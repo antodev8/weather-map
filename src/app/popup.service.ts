@@ -10,15 +10,21 @@ import { WeatherService } from './weather.service';
 })
 export class PopupService {
 
+
+
   constructor() { }
 
 
-  makeCapitalPopup(data: any, params:HttpParams): string{
+
+
+  makeCapitalPopup(data: any, _params:HttpParams): string{
 
     return `` +
-      `<div>Capital: ${ data.name }</div>` +
-      `<div>State: ${ data.state }</div>` +
+      `<div>Città: ${ data.name }</div>` +
+      `<div>Regione: ${ data.state }</div>` +
       `<div>Meteo: ${data.params}</div>`
+
+
 
 
   }

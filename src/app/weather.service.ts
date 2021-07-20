@@ -21,6 +21,7 @@ getWeatherDataByCoords(lat: string | number | boolean, lon: string | number | bo
   .set('units', 'imperial')
   .set('appid', this.apiKey)
 
+
   return this.http.get(this.url, {params});
 }
 }
